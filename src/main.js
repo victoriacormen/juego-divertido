@@ -10,7 +10,14 @@ const config = {
   backgroundColor: "#333",
   width: 800,
   height: 600,
-  scene: [Portada,Game,Instrucciones,GameOver] // Aquí registras la escena
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { y: 300 },
+      debug: false
+    }
+  },
+  scene: [Game, Portada,Instrucciones,GameOver] // Aquí registras la escena
 
 }
 const game = new Phaser.Game(config);
