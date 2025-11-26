@@ -1,2 +1,2 @@
-# JUEGO DIVERTIDO:
-Juego hecho con la librería Phaser y Vite Vanilla
+# Juego Divertido
+Juego con la librería Phaser y vite vanilla
